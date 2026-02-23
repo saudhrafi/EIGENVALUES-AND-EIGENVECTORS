@@ -16,17 +16,20 @@ Using the np.linalg.eig(),  we get two results (first is eigenvalue and second i
 End the program
 
 ## Program:
+```python
+#Program to find the eigen values and eigen vectors.
+#Developed by: Mohamed saudh R
+#RegisterNumber:212225240085
 
-    #Program to find the eigen values and eigen vectors.
-    #Developed by: KABELAN G K
-    #RegisterNumber: 24900985
-    import numpy as np
-    A=np.array([[2,-3,0],[2,-5,0],[0,0,3]])
-    e_va,e_ve=np.linalg.eig(A)
-    print(f"Eigen values are {e_va} and Eigen Vectors are {e_ve}")
+import numpy as np
+A=np.array([[2,2],[1,3]])
+values,vectors=np.linalg.eig(A)
+print(f"Eigen values are {values} and Eigen Vectors are {vectors}")
+```
 
 
 ## Output:
-![alt text](image.png)
+<img width="1261" height="205" alt="image" src="https://github.com/user-attachments/assets/41466a7c-6891-4d21-866f-ea687e11f6ca" />
+
 ## Result:
 Thus the Eigenvalue and Eigenvector is successfully solved using python program
